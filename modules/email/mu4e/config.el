@@ -110,7 +110,8 @@
   :config
   (setq org-msg-startup "inlineimages"
         org-msg-greeting-name-limit 3
-        org-msg-default-alternatives '(html text)))
+        org-msg-default-alternatives '(html text)
+        org-msg-text-plain-alternative t))
 
 
 
